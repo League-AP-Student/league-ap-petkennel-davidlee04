@@ -7,7 +7,9 @@ public class Kennel {
 	 * the result of a call to its speak method, one line per Pet
 	 */
 	public void allSpeak(){
-		/* code goes here */
+		for(Pet p : petList) {
+			System.out.println(p.getName()+" "+p.speak());
+		}
 	}
 	
 	
